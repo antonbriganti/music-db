@@ -183,3 +183,4 @@ dmypy.json
 *.csv
 
 spotipy-env.txt
+.cache-fake
