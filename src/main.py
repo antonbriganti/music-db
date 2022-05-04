@@ -7,7 +7,7 @@ if __name__ == "__main__":
     if (len(sys.argv) >= 2):
         # intialise db
         print("intialising db") 
-        release_db_table = music_db.load_releases("music.json")
+        release_db_table = music_db.load_releases("music.db.json")
 
         # read in data from listed file
         source_file = sys.argv[1]
