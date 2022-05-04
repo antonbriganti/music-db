@@ -6,7 +6,7 @@ def format_release_data(filename):
         entry['Genre'] = [genre.strip() for genre in entry['Genre'].split("/")]
     return data
 
-def __convert_csv_to_dict(self, filename):
+def __convert_csv_to_dict(filename):
     with open(filename, 'r', newline='') as csvfile:
         csv_reader = csv.DictReader(csvfile)
         csv_rows = [dict(row) for row in csv_reader]
